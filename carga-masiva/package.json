@@ -1,0 +1,28 @@
+{
+  "name": "carga-masiva",
+  "version": "1.0.0",
+  "description": "Proyecto para carga masiva de usuarios en alejandria",
+  "main": "carga-masiva.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node carga-masiva.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://repo.koghi.com/jrivera/carga-masiva.git"
+  },
+  "author": "Jael Alexander Rivera Oviedo",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parser": "^1.12.1",
+    "csvtojson": "^2.0.4",
+    "express": "^4.16.3",
+    "formidable": "^1.2.1",
+    "fs": "0.0.1-security",
+    "http": "0.0.0",
+    "ldapjs": "^1.0.2",
+    "node-rest-client": "^3.1.0",
+    "node-ssha256": "^0.1.1",
+    "nodemailer": "^4.6.7"
+  }
+}
