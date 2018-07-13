@@ -1,0 +1,32 @@
+{
+  "name": "recibidos",
+  "version": "1.0.0",
+  "description": "Servicio que expone la recepcion de notificaciones y comunicaciones emitidas por una entidad para el ciudadano",
+  "main": "recibidos.js",
+  "scripts": {
+    "test": "standard && node index.js",
+    "start": "nodemon index.js",
+    "linter": "standard --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://repo.koghi.com/Certicamara/recibidos.git"
+  },
+  "author": "Jael Alexander Rivera Oviedo & Jonathan Alberto Vega",
+  "license": "ISC",
+  "dependencies": {
+    "basic-auth": "^2.0.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "fs": "0.0.1-security",
+    "http": "0.0.0",
+    "nodemon": "^1.18.1",
+    "request": "^2.87.0",
+    "pg": "^7.4.3",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^4.38.0"
+  },
+  "devDependencies": {
+    "standard": "^11.0.1"
+  }
+}
